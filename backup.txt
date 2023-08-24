@@ -1,0 +1,129 @@
+ <div class="row sm-5">
+                                <div id="teamModal" class="modal">
+                                    <div class="modal-content">
+                                      <span class="close">&times;</span>
+                                      <div class="team-member active">
+                                        <!-- Conteúdo do primeiro membro da equipe -->
+                                        <img src="images/equipe/camilo.png" alt="Foto de Camilo">
+                                        <p>Prof. Dr. Camilo A. R. Díaz</p>
+                                        <p>Coordenador do OnE!</p>
+                                        <!-- Outras informações aqui -->
+                                      </div>
+                                      <div class="team-member">
+                                        <!-- Conteúdo do segundo membro da equipe -->
+                                        <img src="images/equipe/ricardo.png" alt="Foto de Ricardo">
+                                        <p>Prof. Dr. Ricardo C. de Mello</p>
+                                        <p>Líder de inovação do OnE!</p>
+                                        <!-- Outras informações aqui -->
+                                      </div>
+                                      <!-- Repita para os outros membros da equipe -->
+                                    </div>
+                                  </div>
+        
+                                <div class="col-sm-2">
+                                    <div class="circular-image">
+                                       
+                                        <img src="images/equipe/camilo.png" class="text-center" width="295" height="295">
+                                    </div>
+        
+                                    <ul class="w-100 mt-3">
+        
+                                        <p class="font-weight-bold fs-5">  Prof. Dr. Camilo A. R. Díaz  </p>
+                                        <li> Coordenador do OnE! </li>                                
+                                        <li> Departamento de Engenharia Elétrica. </li>
+                                        <li> Programa de Pós-Graduação em Engenharia Elétrica. </li>
+                                        <li> Universidade Federal do Espírito Santo. </li>
+        
+                                    </ul>
+        
+                                </div>
+        
+                                <div class="col-sm-2">
+                                    <div class="circular-image">
+                                        <img src="images/equipe/ricardo.png" class="" width="295" height="295">
+                                      </div>
+          
+                                      <ul class="w-100 mt-3 ">
+        
+                                        <p class="font-weight-bold fs-5">  Prof. Dr. Ricardo C. de Mello </p>
+        
+                                        <li> Líder de inovação do OnE! </li>      
+                                        <li> Departamento de Engenharia Elétrica. </li>
+                                        <li> Programa de Pós-Graduação em Engenharia Elétrica. </li>
+                                        <li> Universidade Federal do Espírito Santo. </li>
+                                        
+                                    </ul>
+        
+                                </div>
+        
+                                <div class="col-sm-2">
+        
+                                    <div class="circular-image">
+                                        <img src="images/equipe/moises.png" class="text-center" width="295" height="295">
+                                    </div>
+                            
+                                    
+                                    <ul class="w-100 mt-3">
+                                   
+                                        <p class="font-weight-bold fs-5">  Prof. Dr. Moisés R. N. Ribeiro  </p>
+                                        <li> Assistente de inovação do OnE! </li>                              
+                                        <li> Departamento de Engenharia Elétrica. </li>
+                                        <li> Programa de Pós-Graduação em Engenharia Elétrica. </li>
+                                        <li> Universidade Federal do Espírito Santo. </li>
+        
+                                    </ul>
+                        
+                                </div>
+        
+                                <div class="col-sm-2">
+                                    <div class="circular-image">
+                                        <img src="images/equipe/helder.png" class="text-center" width="295" height="295">
+                                    </div>
+                
+                                    
+                                    <ul class="w-100 mt-3">
+                                            
+                                        <p class="font-weight-bold fs-5">  Helder Silva Fogos </p>
+                                        <li> Bolsista </li>                            
+                                        <li> Graduação em Engenharia Elétrica. </li>
+                                        <li> Universidade Federal do Espírito Santo. </li>
+        
+                                    </ul>
+        
+                                </div>
+        
+                                <div class="col-sm-2">
+                                    <div class="circular-image">
+                                        <img src="images/equipe/daniel.png" class="text-center" width="295" height="295">
+                                      </div>
+          
+                                  
+                                    <ul class="w-100 mt-3">
+                                        <p class="font-weight-bold fs-5">  Daniel Moulin de Almeida </p>
+                                        <li> Bolsista </li>   
+                                        <li>  Graduação em Engenharia da Computação. </li>
+                                        <li> Universidade Federal do Espírito Santo. </li>
+                                    </ul>
+                    
+                                </div>
+        
+                                <div class="col-sm-2">
+        
+                                    <div class="circular-image">
+                                        <img src="images/equipe/gabriel.png" class="text-center" width="295" height="295">
+                                    </div>
+          
+                                 
+                                    <ul class="w-100 mt-3">
+                             
+                                        <p class="font-weight-bold fs-5">  Gabriel Tetzner Menegueti </p>
+        
+                                        <li> Bolsista </li>   
+                                        <li> Graduação em Sistemas de Informação. </li>
+                                        <li> Universidade Federal do Espírito Santo. </li>
+        
+                                    </ul>
+        
+                                </div>
+        
+                            </div>

@@ -1,0 +1,60 @@
+/*Arquivo CSS
+Para toda a página*/ /**/
+
+/*
+
+#2987c8 azul
+#85ccec azul claro
+#d0d4d9 cinza claro
+#85858c cinza 
+#2c2e35 cinza escuro
+
+
+*/
+ .fonte-menu{
+    font-family:unset;
+    font-weight: bold;
+    color: #2987c8;
+}
+
+.primary{
+    color: #2987c8;
+    
+}
+.bg-primary{
+    background-color: #2987c8;
+    
+}
+
+.info{
+    color: #85ccec;
+}
+
+.bg-info{
+    background-color: #85ccec;
+}
+
+.secondary{
+    color: #85858c;
+}
+
+.bg-secondary{
+    background-color: #85858c;
+}
+
+.light{
+    color: white;
+}
+
+.bg-light{
+    background-color: white;
+}
+
+.bg-image{
+    background-image: url(imagem_fundo_2_4.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+
+
