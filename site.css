@@ -56,5 +56,24 @@ Para toda a página*/ /**/
     background-size: 100%;
 }
 
+/* Medias queries */
+
+@media (max-width: 1080px){
+    .embed-responsive-item{
+
+     width: 75%;
+        height: 50%;
+    }
+
+}
+
+@media (max-width: 576px){
+    .embed-responsive-item{
+     margin-top: 45%;
+     width: 75%;
+    height: 50%;
+    }
+
+}
 
 
