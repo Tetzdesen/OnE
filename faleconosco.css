@@ -1,0 +1,143 @@
+/*Arquivo CSS
+
+Para toda a página*/ /**/
+
+/*
+
+#2987c8 azul
+#85ccec azul claro
+#d0d4d9 cinza claro
+#85858c cinza 
+#2c2e35 cinza escuro
+
+
+*/
+
+.fonte-menu{
+    font-family:unset;
+    font-weight: bold;
+    color: #2987c8;
+}
+
+.primary{
+    color: #2987c8;
+    
+}
+
+.bg-primary{
+    background-color: #2987c8;
+}
+
+.info{
+    color: #85ccec;
+}
+
+.bg-info{
+    background-color: #85ccec;
+}
+
+.secondary{
+    color: #85858c;
+}
+
+.bg-secondary{
+    background-color: #85858c;
+}
+
+.light{
+    color: white;
+}
+
+.bg-light{
+    background-color: white;
+}
+
+.bg-image{
+    background-image: url(imagem_fundo_2_4.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.container-form {
+
+  width: 400px;
+  max-width: 100%;
+  overflow: hidden;
+
+}
+
+.header {
+  color: rgb(32, 32, 104);
+  padding: 20px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.form {
+  padding: 20px;
+}
+
+.form-control {
+  margin-bottom: 10px;
+  padding-bottom: 20px;
+  position: relative;
+}
+
+label {
+  display: inline-block;
+  margin-bottom: 5px;
+}
+
+input {
+  border: 2px solid #f0f0f0;
+  display: block;
+  border-radius: 10px;
+  font-size: 14px;
+  width: 100%;
+  padding: 10px;
+  background-color: #d6e7ff;
+}
+
+input:focus {
+  background-color: rgb(255, 243, 203);
+}
+
+form .button {
+  background-color: rgb(9, 60, 172);
+  border: none;
+  color: #fff;
+  font-size: 14px;
+  width: 100%;
+  border-radius: 10px;
+  padding: 10px;
+  transition: .7s;
+}
+
+.form .button:hover {
+  cursor: pointer;
+  background-color: rgb(57, 4, 155);;
+}
+
+/* Error and Success */
+.form-control.success input {
+  border-color: #2ecc71;
+}
+
+.form-control.error input {
+  border-color: #e74c3c;
+}
+
+.form-control.success i.fa-check-circle {
+  color: #2ecc71;
+  visibility: visible;
+}
+
+.form-control.error i.fa-exclamation-circle {
+  color: #e74c3c;
+  visibility: visible;
+}
+
+.form-control.error small {
+  visibility: visible;
+  color: #e74c3c;
+}
