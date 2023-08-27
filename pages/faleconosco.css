@@ -53,10 +53,26 @@ Para toda a página*/ /**/
 }
 
 .bg-image{
-    background-image: url(images/imagem_fundo_2_4.png);
+    background-image: url(../images/imagem_fundo_2_4.png);
     background-repeat: no-repeat;
     background-size: 100%;
 }
+
+
+.hiper{
+  list-style-type: none; /* Remove os bullets da lista não ordenada */
+  padding: 0; /* Opcional: Remove o espaçamento interno padrão das listas */
+}
+
+.hiper ul ol {
+  list-style: none; /* Remove os bullets das listas */
+  padding: 0; /* Opcional: Remove o espaçamento interno padrão das listas */
+}
+
+.hiper li {
+  text-decoration: none; /* Remove o sublinhado dos itens da lista */
+}
+
 
 .container-form {
 
