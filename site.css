@@ -59,15 +59,21 @@ Para toda a página*/ /**/
 /* Medias queries */
 
 @media (max-width: 1080px){
+    .conheca{
+ 
+    }
     .embed-responsive-item{
 
      width: 75%;
         height: 50%;
     }
 
-}
+} 
 
 @media (max-width: 576px){
+    .conheca{
+     
+    }
     .embed-responsive-item{
      margin-top: 45%;
      width: 75%;
