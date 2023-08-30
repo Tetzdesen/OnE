@@ -71,13 +71,16 @@ Para toda a página*/ /**/
 } 
 
 @media (max-width: 576px){
+    .bg-image{
+        background-size: 250%;
+    }
     .conheca{
      
     }
     .embed-responsive-item{
-     margin-top: 45%;
-     width: 75%;
-    height: 50%;
+
+    width: 100%;
+    height: 100%;
     }
 
 }

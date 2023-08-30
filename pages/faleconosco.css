@@ -170,6 +170,12 @@ form .button {
 } 
 
 @media (max-width: 576px){
+  .bg-image{
+    background-size: 150%;
+  }
+  .contact-form{
+    margin: 0;
+  }
    .imagem-contato{
     margin: 0;
     height: 50%;
