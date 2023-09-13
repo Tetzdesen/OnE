@@ -58,6 +58,10 @@ Para toda a página*/ /**/
     background-size: 100%;
 }
 
+img{
+  
+}
+
 
 .hiper{
   list-style-type: none; /* Remove os bullets da lista não ordenada */
@@ -74,7 +78,6 @@ Para toda a página*/ /**/
 ul, li{
   text-decoration: none;
 }
-
 
 .container-form {
 
