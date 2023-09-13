@@ -167,6 +167,10 @@ form .button {
     margin-top: 0;
     margin-bottom: 0;
   }
+
+  img{
+    margin: 0;
+  }
 }
 
 @media (max-width: 576px) {
@@ -188,5 +192,8 @@ form .button {
   }
   form {
     margin-top: 35%;
+  }
+  img{
+    margin: 0;
   }
 }
