@@ -67,16 +67,16 @@ img {
   text-decoration: none; /* Remove o sublinhado dos itens da lista */
 }
 
+.hiper li a {
+  text-decoration: none;
+}
+
 .hiper ul ol {
   list-style: none; /* Remove os bullets das listas */
   padding: 0; /* Opcional: Remove o espaçamento interno padrão das listas */
   text-decoration: none;
 }
 
-ul,
-li {
-  text-decoration: none;
-}
 
 .container-form {
   width: 400px;
