@@ -51,11 +51,13 @@ Para toda a página*/ /**/
 }
 
 .bg-image{
-    background-image: url(images/imagem_fundo_2_4.png);
+    background-image: url(images/logos/imagem_fundo_2_4.png);
     background-repeat: no-repeat;
     background-size: 100%;
 }
-
+a.gt_one_text{
+    color: rgb(45, 119, 205);
+}
 /* Medias queries */
 
 @media (max-width: 1080px){
