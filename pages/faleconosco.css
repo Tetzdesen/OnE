@@ -13,44 +13,44 @@ Para toda a página*/ /**/
 
 */
 
-.fonte-menu{
-    font-family:unset;
-    font-weight: bold;
-    color: #2987c8;
+.fonte-menu {
+  font-family: unset;
+  font-weight: bold;
+  color: #2987c8;
 }
 
-.primary{
-    color: #2987c8;
-    
+.primary {
+  color: #2987c8;
 }
 
-.bg-primary{
-    background-color: #2987c8;
+.bg-primary {
+  background-color: #2987c8;
 }
 
-.info{
-    color: #85ccec;
+.info {
+  color: #85ccec;
 }
 
-.bg-info{
-    background-color: #85ccec;
+.bg-info {
+  background-color: #85ccec;
 }
 
-.secondary{
-    color: #85858c;
+.secondary {
+  color: #85858c;
 }
 
-.bg-secondary{
-    background-color: #85858c;
+.bg-secondary {
+  background-color: #85858c;
 }
 
-.light{
-    color: white;
+.light {
+  color: white;
 }
 
-.bg-light{
-    background-color: white;
+.bg-light {
+  background-color: white;
 }
+
 
 .bg-image{
     background-image: url(../images/logos/imagem_fundo_2_4.png);
@@ -59,27 +59,33 @@ Para toda a página*/ /**/
 }
 
 
-.hiper{
+.bg-image {
+  background-image: url(../images/imagem_fundo_2_4.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.hiper {
   list-style-type: none; /* Remove os bullets da lista não ordenada */
   padding: 0; /* Opcional: Remove o espaçamento interno padrão das listas */
+  text-decoration: none; /* Remove o sublinhado dos itens da lista */
+}
+
+.hiper li a {
+  text-decoration: none;
 }
 
 .hiper ul ol {
   list-style: none; /* Remove os bullets das listas */
   padding: 0; /* Opcional: Remove o espaçamento interno padrão das listas */
-}
-
-.hiper li {
-  text-decoration: none; /* Remove o sublinhado dos itens da lista */
+  text-decoration: none;
 }
 
 
 .container-form {
-
   width: 400px;
   max-width: 100%;
   overflow: hidden;
-
 }
 
 .header {
@@ -126,12 +132,12 @@ form .button {
   width: 100%;
   border-radius: 10px;
   padding: 10px;
-  transition: .7s;
+  transition: 0.7s;
 }
 
 .form .button:hover {
   cursor: pointer;
-  background-color: rgb(57, 4, 155);;
+  background-color: rgb(57, 4, 155);
 }
 
 /* Error and Success */
@@ -158,35 +164,35 @@ form .button {
   color: #e74c3c;
 }
 
-@media (max-width: 1080px){
- 
-  .imagem-contato img{
-      width: 75%;
-      height: 75%;
-      margin-top: 0;
-      margin-bottom: 0;
-  } 
-} 
 
-@media (max-width: 576px){
-  .bg-image{
+@media (max-width: 1080px) {
+  .imagem-contato img {
+    width: 50%;
+    height: 50%;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+}
+
+@media (max-width: 576px) {
+  .bg-image {
     background-size: 150%;
   }
-  .contact-form{
+  .contact-form {
     margin: 0;
   }
-   .imagem-contato{
+  .imagem-contato {
     margin: 0;
     height: 50%;
     width: 50%;
-   }
-   .imagem-contato img{
-    width: 75%;
-    height: 75%;
+  }
+  .imagem-contato img {
+    width: 50%;
+    height: 50%;
     margin: 0;
-   }
-  form{
+  }
+  form {
     margin-top: 35%;
   }
 }
-
