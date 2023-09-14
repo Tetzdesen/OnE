@@ -51,9 +51,13 @@ Para toda a página*/ /**/
   background-color: white;
 }
 
-img {
-  margin-top: 15%;
+
+.bg-image{
+    background-image: url(../images/logos/imagem_fundo_2_4.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
+
 
 .bg-image {
   background-image: url(../images/imagem_fundo_2_4.jpg);
@@ -159,6 +163,7 @@ form .button {
   visibility: visible;
   color: #e74c3c;
 }
+
 
 @media (max-width: 1080px) {
   .imagem-contato img {
