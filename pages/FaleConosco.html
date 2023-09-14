@@ -8,7 +8,7 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <link rel="icon" href="../images/logo-semfundo.png" type="image/x-icon">
+    <link rel="icon" href="../images/logo-semfundo.png" type="image/x-icon" />
 
     <link rel="stylesheet" type="text/css" href="faleconosco.css" />
 
@@ -19,8 +19,38 @@
       crossorigin="anonymous"
     />
 
-    <style>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"
+    ></script>
+    <script type="text/javascript">
+      (function () {
+        // https://dashboard.emailjs.com/admin/account
+        emailjs.init("6Cb94gOsu_3rFwgfD");
+      })();
+    </script>
+    <script type="text/javascript">
+      window.onload = function () {
+        document
+          .getElementById("contact-form")
+          .addEventListener("submit", function (event) {
+            event.preventDefault();
+            // generate a five digit number for the contact_number variable
+            this.contact_number.value = (Math.random() * 100000) | 0;
+            // these IDs from the previous steps
+            emailjs.sendForm("service_87fm28n", "contato_form", this).then(
+              function () {
+                console.log("SUCCESS!");
+              },
+              function (error) {
+                console.log("FAILED...", error);
+              }
+            );
+          });
+      };
+    </script>
 
+    <style>
       body {
         background-color: #f4f6f9;
       }
@@ -32,7 +62,6 @@
         padding: 30px;
       }
     </style>
-
   </head>
 
   <body>
@@ -63,7 +92,7 @@
             </button>
 
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav m-3  me-auto mb-2 mb-lg-0 fonte-menu">
+              <ul class="navbar-nav m-3 me-auto mb-2 mb-lg-0 fonte-menu">
                 <li class="nav-item">
                   <a class="nav-link" aria-current="page" href="../index.html"
                     >INÍCIO</a
@@ -103,7 +132,7 @@
               <a class="text-white" href=""> Whatsapp </a>
             </li>
             <li>
-               <p class="text-white"> E-mail: camilo.diaz@ufes.br </p>
+              <p class="text-white">E-mail: camilo.diaz@ufes.br</p>
             </li>
           </ul>
 
@@ -200,7 +229,6 @@
                             </div>
                           </div>
 
-
                           <div class="mb-3">
                             <label for="estado" class="form-label"
                               >Estado</label
@@ -217,7 +245,6 @@
                               Por favor, informe o seu estado.
                             </div>
                           </div>
-
 
                           <div class="mb-3">
                             <label for="mensagem" class="form-label"
@@ -252,6 +279,5 @@
         </div>
       </div>
     </div>
-
   </body>
 </html>
