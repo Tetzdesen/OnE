@@ -57,6 +57,9 @@ Para toda a página*/ /**/
     background-size: 100%;
 }
 
+a.gt_one_text{
+    color: rgb(45, 119, 205);
+}
 /* Medias queries */
 
 @media (max-width: 1080px){
