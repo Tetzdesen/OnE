@@ -162,12 +162,10 @@ form .button {
   color: #e74c3c;
 }
 
-
 @media (max-width: 1080px) {
   img {
     height: 100%;
   }
-
 }
 
 @media (max-width: 576px) {
