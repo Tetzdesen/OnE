@@ -161,36 +161,3 @@ form .button {
   visibility: visible;
   color: #e74c3c;
 }
-
-
-@media (max-width: 1080px) {
-  .imagem-contato img {
-    width: 50%;
-    height: 50%;
-    margin-top: 0;
-    margin-bottom: 0;
-  }
-
-}
-
-@media (max-width: 576px) {
-  .bg-image {
-    background-size: 150%;
-  }
-  .contact-form {
-    margin: 0;
-  }
-  .imagem-contato {
-    margin: 0;
-    height: 50%;
-    width: 50%;
-  }
-  .imagem-contato img {
-    width: 50%;
-    height: 50%;
-    margin: 0;
-  }
-  form {
-    margin-top: 35%;
-  }
-}
