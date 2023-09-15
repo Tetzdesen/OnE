@@ -51,13 +51,11 @@ Para toda a página*/ /**/
   background-color: white;
 }
 
-
 .bg-image{
     background-image: url(../images/logos/imagem_fundo_2_4.png);
     background-repeat: no-repeat;
     background-size: 100%;
 }
-
 
 .bg-image {
   background-image: url(../images/imagem_fundo_2_4.jpg);
@@ -83,6 +81,7 @@ Para toda a página*/ /**/
 
 .container-form {
   width: 400px;
+  margin: 0;
   max-width: 100%;
   overflow: hidden;
 }
