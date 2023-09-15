@@ -51,12 +51,6 @@ Para toda a página*/ /**/
   background-color: white;
 }
 
-.bg-image{
-    background-image: url(../images/logos/imagem_fundo_2_4.png);
-    background-repeat: no-repeat;
-    background-size: 100%;
-}
-
 .bg-image {
   background-image: url(../images/imagem_fundo_2_4.jpg);
   background-repeat: no-repeat;
@@ -163,13 +157,19 @@ form .button {
 }
 
 @media (max-width: 1080px) {
-  img {
-    height: 100%;
+  .bg-image {
+    background-size: 115%;
   }
 }
 
 @media (max-width: 576px) {
-   img{
-    height: 100%;
-   }
+  .bg-image {
+    background-size: 125%;
+  }
+}
+
+@media (max-width: 280px) {
+  .bg-image {
+    background-size: 175%;
+  }
 }

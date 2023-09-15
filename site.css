@@ -11,77 +11,68 @@ Para toda a página*/ /**/
 
 
 */
-.fonte-menu{
-    font-family:unset;
-    font-weight: bold;
-    color: #2987c8;
+.fonte-menu {
+  font-family: unset;
+  font-weight: bold;
+  color: #2987c8;
 }
 
-.primary{
-    color: #2987c8;
-    
+.primary {
+  color: #2987c8;
 }
 
-.bg-primary{
-    background-color: #2987c8;
-    
+.bg-primary {
+  background-color: #2987c8;
 }
 
-.info{
-    color: #85ccec;
+.info {
+  color: #85ccec;
 }
 
-.bg-info{
-    background-color: #85ccec;
+.bg-info {
+  background-color: #85ccec;
 }
 
-.secondary{
-    color: #85858c;
+.secondary {
+  color: #85858c;
 }
 
-.bg-secondary{
-    background-color: #85858c;
+.bg-secondary {
+  background-color: #85858c;
 }
 
-.light{
-    color: white;
+.light {
+  color: white;
 }
 
-.bg-light{
-    background-color: white;
+.bg-light {
+  background-color: white;
 }
 
-.bg-image{
-    background-image: url(images/imagem_fundo_2_4.jpg);
-    background-repeat: no-repeat;
-    background-size: 100%;
+.bg-image {
+  background-image: url(images/imagem_fundo_2_4.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
 }
 
-a.gt_one_text{
-    color: rgb(45, 119, 205);
+a.gt_one_text {
+  color: rgb(45, 119, 205);
 }
 /* Medias queries */
 
-@media (max-width: 1080px){
-
-    .embed-responsive-item{
-
-     width: 75%;
-        height: 50%;
-    }
-
-} 
-
-@media (max-width: 576px){
-    .bg-image{
-        background-size: 250%;
-    }
-    .embed-responsive-item{
-
-    width: 100%;
-    height: 100%;
-    }
-
+@media (max-width: 1080px) {
+  .embed-responsive-item {
+    width: 75%;
+    height: 50%;
+  }
 }
 
-
+@media (max-width: 576px) {
+  .bg-image {
+    background-size: 250%;
+  }
+  .embed-responsive-item {
+    width: 100%;
+    height: 100%;
+  }
+}
