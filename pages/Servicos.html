@@ -18,7 +18,22 @@
       crossorigin="anonymous"
     />
 
-    <style></style>
+    <style>
+      .footer-content{
+      background-color: white; /* Cor de fundo do rodapé */
+      color:#85858c; /* Cor do texto do rodapé */
+      text-align: left; /* texto do rodapé a esquerda */
+      padding: 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      }
+      .col-sm-6{
+        padding-bottom: 50px;
+      }
+      
+    </style>
   </head>
 
   <body>
@@ -87,6 +102,26 @@
         <div class="row justify-content-around align-items-center">
           <div class="col-sm-6">
             <div class="row mt-3">
+              <h2>Introdução</h2>
+              <p style="text-align: justify;">
+                Um eventual rompimento de cabo óptico tem um enorme custo operacional de deslocamento 
+                de equipe e longo tempo de localização e de reparo. Como consequência, há a necessidade 
+                técnica de monitoramento ininterrupto da saúde dos cabos ópticos. Os cabos são ativos 
+                expostos em postes (e/ou dutos) margeando rodovias, ferrovias e ruas. Tais cabos estão, 
+                portanto, vulneráveis a intempéries do clima, vandalismo, acidentes nas vias de transporte 
+                ou da construção civil.
+              </p>
+              <p style="text-align: justify;">
+                O Grupo de Trabalho (GT) Olho no Enlace! (OnE!), visa desenvolver um sistema de baixo
+                custo que permita o monitoramento da integridade física dos cabos ópticos em tempo real. 
+                Ainda mais, o GT-OnE! permite exploração de aprendizagem de máquina para predição de falhas
+                usando o grande conjunto de dados extraídos da camada física da planta óptica. 
+              </p>
+
+
+            </div>
+
+            <div class="row mt-4">
               <h2>Pequenas Operadoras</h2>
               <h5>Monitoramento de rede óptica perfeito pra você!</h5>
               <p>
@@ -96,11 +131,11 @@
               <img
                 src="../images/solucoes/setup.jpeg"
                 alt="Solução em forma de Setup"
-                style="width: 85%"
+                style="width: 85%;"
               />
             </div>
 
-            <div class="row mt-4">
+            <div class="row mt-5">
               <h2>Redes metropolitanas</h2>
               <h5>Uma solução de cabe no seu bolso!</h5>
               <p>
@@ -110,13 +145,36 @@
               </p>
 
               <img
-                src="../images/solucoes/dashboard01.png"
+                src="../images/solucoes/dashboard.jpeg"
                 alt="Imagem de dashboard 01"
+                style="width: 85%;"
               />
             </div>
           </div>
         </div>
       </div>
     </div>
-  </body>
+
+    <footer>
+      <div class="container-fluid">
+          <div class="footer-content">
+              <strong><p style="font-size: 16px;">LabTel, LabNerds e RNP<br>   
+                 CT VI - Universidade Federal do Espírito Santo,<br>
+                 Salas 214, 216 e 218 - Goiabeiras, ES, 29075-910</p>
+              </strong>
+              
+              <a href = "https://labtelufes.net/"><img src="../images/logos/labtel.png" alt="LabTel Logo" width="150"
+                title = "Laboratório de Telecomunicações da UFES"></a>
+              <a href = "https://www.linkedin.com/company/nerdsufes?originalSubdomain=br"><img src="../images/logos/nerds_logo.png" alt="LabNerds Logo" width="150" 
+                title="Núcleo de Estudos em Redes Definidas por software"></a>
+              <a href = "https://www.rnp.br/"><img src="../images/logos/rnp.png" alt="RNP Logo" width="150"
+                 title = "Rede Nacional de Ensino Pesquisa"></a>
+              <a href = "https://www.ufes.br/"><img src="../images/logos/marca_ufes.png" alt="UFES Logo" width="150" 
+                title = "Universidade Federal do Espírito Santo"></a>
+          </div>
+      </div>
+  </footer>
+</body>
+
+  
 </html>

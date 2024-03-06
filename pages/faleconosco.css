@@ -55,6 +55,9 @@ Para toda a página*/ /**/
   background-image: url(../images/imagem_fundo_2_4.jpg);
   background-repeat: no-repeat;
   background-size: 100%;
+  background-size: cover;
+  background-position: center;
+  padding-bottom: 100px;
 }
 
 .hiper {
@@ -79,6 +82,10 @@ Para toda a página*/ /**/
   max-width: 100%;
   overflow: hidden;
 }
+.card{
+  box-shadow: 0 7px 15px 0 rgba(0, 0, 0, .13), 0 1px 4px 0 rgba(0, 0, 0, .11);
+  border-radius: 20px;
+}
 
 .header {
   color: rgb(32, 32, 104);
@@ -87,13 +94,14 @@ Para toda a página*/ /**/
   font-weight: bold;
 }
 
+
 .form {
   padding: 20px;
 }
 
 .form-control {
-  margin-bottom: 10px;
-  padding-bottom: 20px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
   position: relative;
 }
 
@@ -101,15 +109,28 @@ label {
   display: inline-block;
   margin-bottom: 5px;
 }
+.text-white.img{
+  background: -webkit-linear-gradient(45deg, #262192, #4E49CC, #7974F2);
+}
+.mb-3 i{
+  background: -webkit-linear-gradient(45deg, #262192, #4E49CC, #7974F2);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  padding: 5px; /* Ajuste conforme necessário */
 
-input {
+}
+
+
+
+.input {
   border: 2px solid #f0f0f0;
   display: block;
   border-radius: 10px;
-  font-size: 14px;
+  font-size: 5px;
   width: 100%;
   padding: 10px;
   background-color: #d6e7ff;
+
 }
 
 input:focus {
@@ -117,7 +138,7 @@ input:focus {
 }
 
 form .button {
-  background-color: rgb(9, 60, 172);
+  background-color: rgb(9, 60, 0);
   border: none;
   color: #fff;
   font-size: 14px;
@@ -129,7 +150,8 @@ form .button {
 
 .form .button:hover {
   cursor: pointer;
-  background-color: rgb(57, 4, 155);
+  background-color: linear-gradient(-45deg, rgb(57, 4, 155), rgb(41, 0, 118), rgb(26, 0, 75)) ;
+  /* background-color: rgb(57, 4, 155) ; */
 }
 
 /* Error and Success */
@@ -156,6 +178,18 @@ form .button {
   color: #e74c3c;
 }
 
+
+
+
+.footer-content {
+  background-color: white; /* Cor de fundo do rodapé */
+  color:#85858c; /* Cor do texto do rodapé */
+  padding: 20px; /* Espaçamento interno do rodapé */
+  text-align: left; /* Centralizar texto do rodapé */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 @media (max-width: 1080px) {
   .bg-image {
     background-size: 115%;

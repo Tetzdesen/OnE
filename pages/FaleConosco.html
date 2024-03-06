@@ -18,18 +18,29 @@
       integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
       crossorigin="anonymous"
     />
+    <script src="https://kit.fontawesome.com/f9b5fd5f23.js" crossorigin="anonymous"></script>
 
     <style>
       body {
         background-color: #fff;
-      }
-      .bg-contato {
-        background-image: url("../images/logos/imagem_fundo_2_4.png");
+        background-size: cover; /* Ajusta o tamanho da imagem */
+        background-position: center; /* Centraliza a imagem */
       }
       .contact-form {
+        position: relative; /* Posicionamento absoluto */
+        bottom: 50px; /* Alinha o formulário ao fundo do contêiner pai */
         background-color: #fff;
         padding: 30px;
+        width: 100%; 
       }
+
+      .card{
+        border-radius: 20px;
+      }
+
+
+
+      
     </style>
   </head>
 
@@ -78,6 +89,7 @@
       </div>
     </header>
 
+
     <div class="bg-light bg-image">
       <div>
         <div class="container">
@@ -92,7 +104,7 @@
             <li>
               <a class="text-white" href=""
                 ><img
-                  src="../images/logos/instagram.svg"
+                  src="../images/logos/instagram.png"
                   alt="Ícone de Instagram"
                   width="35"
                   height="35"
@@ -102,24 +114,25 @@
             </li>
 
             <li>
-              <a class="text-white" href=""
-                ><img
-                  src="../images/logos/Whatsapp.svg"
-                  alt="Ícone de Instagram"
+              <a class="text-white" href="camilo.diaz@ufes.br">
+                <div class = "icons-contact" >
+                <img
+                  src="../images/logos/whatsapp.png"
+                  alt="Ícone de Whatsapp"
                   width="35"
                   height="35"
-                />
-                Whatsapp
+                  
+                />Whatsapp</div>
               </a>
             </li>
 
             <li>
-              <a class="text-white"
+              <a class="text-white" href=""
                 ><img
                   src="../images/logos/email.png"
                   alt="Ícone de E-mail"
-                  width="35"
-                  height="35"
+                  width="30"
+                  height="30"
                 />
                 camilo.diaz@ufes.br
               </a>
@@ -139,12 +152,13 @@
                 <div class="col-md-8">
                   <div class="card">
                     <div class="card-header">
-                      <h2 class="text-center m-0">Entre em contato</h2>
+                      <h2 class="text-center m-0">Entre em contato conosco</h2>
                     </div>
                     <div class="card-body">
                       <form method="POST" id="form" class="needs-validation">
                         <input type="hidden" name="contact_number" />
                         <div class="mb-3">
+                          <i class="fa-solid fa-user"></i>
                           <label for="nome" class="form-label"
                             >Nome Completo</label
                           >
@@ -154,7 +168,9 @@
                             id="nome"
                             name="Nome"
                             placeholder="Nome Completo"
+                            autocomplete = "off"
                             required
+                            style = "border-radius: 20px; border-width: 2px; border-color: #4E49CC"
                           />
                           <div class="invalid-feedback">
                             Por favor, informe seu nome.
@@ -162,14 +178,17 @@
                         </div>
 
                         <div class="mb-3">
-                          <label for="email" class="form-label">E-mail</label>
+                          <i class="fa-solid fa-envelope"></i>
+                          <label for="email" class="form-label"> E-mail</label>
                           <input
                             type="email"
                             class="form-control"
                             id="email"
                             name="Email"
-                            placeholder="example@gmail.com"
+                            placeholder="example@gmail.com" 
+                            autocomplete="off"
                             required
+                            style = "border-radius: 20px; border-width: 2px; border-color: #4E49CC"
                           />
                           <div class="invalid-feedback">
                             Por favor, insira um e-mail válido.
@@ -177,6 +196,7 @@
                         </div>
 
                         <div class="mb-3">
+                          <i class="fa-solid fa-phone"></i>
                           <label for="telefone" class="form-label"
                             >Telefone</label
                           >
@@ -186,7 +206,9 @@
                             id="telefone"
                             name="Telefone"
                             placeholder="(xx) xxxx-xxxx"
+                            autocomplete="off"
                             required
+                            style = "border-radius: 20px; border-width: 2px; border-color: #4E49CC"
                           />
                           <div class="invalid-feedback">
                             Por favor, insira um número de telefone válido no
@@ -195,6 +217,7 @@
                         </div>
 
                         <div class="mb-3">
+                          <i class="fa-solid fa-house"></i>
                           <label for="cidade" class="form-label">Cidade</label>
                           <input
                             type="text"
@@ -202,7 +225,9 @@
                             id="cidade"
                             name="Cidade"
                             placeholder="Exemplo: Alegre"
+                            autocomplete="off"
                             required
+                            style = "border-radius: 20px; border-width: 2px; border-color: #4E49CC"
                           />
                           <div class="invalid-feedback">
                             Por favor, informe a cidade.
@@ -210,6 +235,7 @@
                         </div>
 
                         <div class="mb-3">
+                          <i class="fa-solid fa-city"></i>
                           <label for="estado" class="form-label">Estado</label>
                           <input
                             type="text"
@@ -218,6 +244,7 @@
                             name="Estado"
                             placeholder="Exemplo: Espírito Santo"
                             required
+                            style = "border-radius: 20px; border-width: 2px; border-color: #4E49CC"
                           />
                           <div class="invalid-feedback">
                             Por favor, informe o seu estado.
@@ -225,6 +252,7 @@
                         </div>
 
                         <div class="mb-3">
+                          <i class="fa-solid fa-message"></i>
                           <label for="mensagem" class="form-label"
                             >Mensagem</label
                           >
@@ -235,6 +263,7 @@
                             rows="4"
                             placeholder="Digite sua mensagem aqui"
                             required
+                            style = "border-radius: 20px; border-width: 2px; border-color: #4E49CC"
                           ></textarea>
                           <div class="invalid-feedback">
                             Por favor, insira a mensagem.
@@ -242,7 +271,7 @@
                         </div>
 
                         <div class="text-center">
-                          <button type="submit" class="btn btn-primary">
+                          <button type="submit" class="btn btn-primary" style="width: 200px; background-image: -webkit-linear-gradient(45deg, #262192, #4E49CC, #7974F2);">
                             ENVIAR
                           </button>
                         </div>
@@ -256,6 +285,26 @@
         </div>
       </div>
     </div>
+
+
+    <footer>
+      <div class="container-fluid">
+          <div class="footer-content">
+              <strong><p style="font-size: 16px;">LabTel, LabNerds e RNP<br>   
+                 CT VI - Universidade Federal do Espírito Santo,<br>
+                 Salas 214, 216 e 218 - Goiabeiras, ES, 29075-910</p>
+              </strong>
+              <a href = "https://labtelufes.net/"><img src="../images/logos/labtel.png" alt="LabTel Logo" width="150" 
+                title="Laboratório de Telecomunicações da UFES"></a>
+              <a href = "https://www.linkedin.com/company/nerdsufes?originalSubdomain=br"><img src="../images/logos/nerds_logo.png" alt="LabNerds Logo" width="150" 
+                title="Núcleo de Estudos em Redes Definidas por software"></a>
+              <a href = "https://www.rnp.br/"><img src="../images/logos/rnp.png" alt="RNP Logo" width="150" 
+                title="Rede Nacional de Ensino Pesquisa"></a>
+              <a href = "https://www.ufes.br/"><img src="../images/logos/marca_ufes.png" alt="UFES Logo" width="150" 
+                title="Universidade Federal do Espírito Santo"></a>
+          </div>
+      </div>
+    </footer>
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
