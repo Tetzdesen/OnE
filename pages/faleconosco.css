@@ -212,6 +212,7 @@ form .button {
   .footer-content {
     flex-direction: column; /* Empilha os itens do rodapé verticalmente em telas menores */
     align-items: center; /* Alinha os itens do rodapé ao centro em telas menores */
+    text-align: justify;
   }
 
 .footer-content .col-md-3 {
