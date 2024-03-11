@@ -76,3 +76,22 @@ a.gt_one_text {
     height: 100%;
   }
 }
+
+@media (max-width: 768px) {
+  .footer-content {
+    flex-direction: column; /* Empilha os itens do rodapé verticalmente em telas menores */
+    align-items: center; /* Alinha os itens do rodapé ao centro em telas menores */
+    text-align: justify;
+  }
+
+.footer-content .col-md-3 {
+  margin-bottom: 20px;
+}
+
+.footer-content img {
+  max-width: 150px; /* Ajuste o tamanho máximo dos logotipos conforme necessário */
+}
+}
+
+
+
